@@ -151,6 +151,100 @@ Some planned projects include:
 * [Scikit-learn Documentation](https://scikit-learn.org/)
 * [Python Documentation](https://docs.python.org/3/)
 
+# CNN Image Classification
+
+A simple **Convolutional Neural Network (CNN)** project for image classification using Python and TensorFlow/Keras.
+
+## 📌 About the Project
+
+This project uses a CNN to learn features from images and classify them into different categories.
+
+CNNs are commonly used for:
+
+* Image classification
+* Object detection
+* Face recognition
+* Medical image analysis
+
+## 🛠️ Technologies Used
+
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+
+## 📂 Project Structure
+
+```text
+CNN-Project/
+│
+├── dataset/
+├── model.py
+├── train.py
+├── requirements.txt
+└── README.md
+```
+
+## ⚙️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/CNN-Project.git
+cd CNN-Project
+```
+
+### 2. Install the required libraries
+
+```bash
+pip install tensorflow numpy matplotlib
+```
+
+### 3. Run the project
+
+```bash
+python train.py
+```
+
+## 🧠 CNN Architecture
+
+The model consists of:
+
+1. Convolutional Layer
+2. ReLU Activation
+3. Max Pooling
+4. Convolutional Layer
+5. Max Pooling
+6. Flatten Layer
+7. Fully Connected Layer
+8. Output Layer
+
+## 📊 Results
+
+The model is trained on the image dataset and evaluated using accuracy and loss.
+
+Example:
+
+```text
+Training Accuracy: 95%
+Validation Accuracy: 92%
+```
+
+## 🚀 Future Improvements
+
+* Increase the dataset size
+* Use data augmentation
+* Add more CNN layers
+* Try transfer learning
+* Improve model accuracy
+
+## 👨‍💻 Author
+
+**Your Name**
+
+⭐ If you found this project useful, consider giving it a star!
+
 ## 👨‍💻 About
 
 This repository is part of my journey to learn **Artificial Intelligence, Machine Learning, and Deep Learning** through practical implementation and projects.
